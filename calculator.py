@@ -10,7 +10,9 @@ def multiply(a, b):
     return round(a * b, 4)
 
 def divide(a, b):
-    pass
+    if b == 0:
+        return "Error: Division by zero is not allowed."
+    return round(a / b, 4)
 
 def get_numbers():
     while True:

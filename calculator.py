@@ -10,7 +10,7 @@ def multiply(a, b):
     return round(a * b, 4)
 
 def divide(a, b):
-    pass
+    return a / b
 
 def get_numbers():
     while True:

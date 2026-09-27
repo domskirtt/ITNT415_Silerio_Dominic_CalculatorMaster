@@ -7,7 +7,7 @@ def subtract(a, b):
 
 
 def multiply(a, b):
-    pass
+    return round(a * b, 4)
 
 def divide(a, b):
     pass

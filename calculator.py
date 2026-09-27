@@ -20,7 +20,7 @@ def get_numbers():
             a = float(input("Enter first number:  "))
             b = float(input("Enter second number:  "))
             return a,  b
-         except ValueError:
+        except ValueError:
              print("Invalid input. Please enter numeric values.")
 
 
@@ -48,7 +48,7 @@ def main():
             elif choice == "4":
                 print(f"Result: {divide(a, b)}")
 
-          else:
+        else:
               print("Invalid option. Please choose between 1 and 5.")
 
 
